@@ -6,18 +6,6 @@ pub fn enumerations_main() {
         Ok(s) => println!("saw: {s}"),
         Err(err) => println!("{err}")
     }
-
-    let eco_saw_result = PowerTool::new(10);
-    match eco_saw_result {
-        Ok(s) => println!("saw: {s}"),
-        Err(err) => println!("{err}")
-    }
-
-    let eco_saw_result = PowerTool::new(10);
-    match eco_saw_result {
-        Ok(s) => println!("saw: {s}"),
-        Err(err) => println!("{err}")
-    }
 }
 
 #[derive(Debug)]
